@@ -273,7 +273,7 @@ export default function Home() {
 							Lets Build Something Amazing Together
 						</h2>
 						<p className="text-white/80 mb-10 text-lg">
-							Im always open to discussing new projects, creative ideas or opportunities to be part of your vision.
+							I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.
 						</p>
 						<motion.div
 							whileHover={{ scale: 1.05 }}

@@ -61,7 +61,7 @@ export default function HeroSection() {
 			
 			{/* Tech tags floating in background */}
 			<div className="absolute inset-0 overflow-hidden pointer-events-none">
-				{['React', 'Three.js', 'WebGL', 'GSAP', 'Tailwind', 'TypeScript', 'Next.js'].map((tech) => (
+				{['React', 'Three.js', 'WebGL', 'GSAP', 'Tailwind', 'TypeScript', 'Next.js'].map((tech, index) => (
 					<motion.div
 						key={tech}
 						className="absolute text-white/20 font-bold text-xl"
